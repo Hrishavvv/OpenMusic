@@ -1,4 +1,4 @@
-# Minimal Music - Music Streaming App
+# OpenMusic - Music Streaming App
 
 A minimalistic music streaming application built with modern web technologies. Search and stream your favorite songs with a clean, beautiful interface.
 
