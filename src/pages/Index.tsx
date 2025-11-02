@@ -233,15 +233,15 @@ const Index = () => {
         {/* Attribution - Always at bottom, middle-oriented */}
         {!activeSearch ? (
           <div className="pb-4 sm:pb-6 text-center mt-auto">
-            <p className="text-xs sm:text-sm bg-gradient-to-r from-muted-foreground via-accent/80 to-muted-foreground bg-clip-text text-transparent font-medium px-4">
+            {/* <p className="text-xs sm:text-sm bg-gradient-to-r from-muted-foreground via-accent/80 to-muted-foreground bg-clip-text text-transparent font-medium px-4">
               Made with <Heart className="inline-block h-3 w-3 sm:h-3.5 sm:w-3.5 text-accent fill-accent mx-0.5 animate-pulse" /> by Hrishav
-            </p>
+            </p> */}
           </div>
         ) : (
           <div className="mt-8 sm:mt-12 pt-6 text-center">
-            <p className="text-xs sm:text-sm bg-gradient-to-r from-muted-foreground via-accent/80 to-muted-foreground bg-clip-text text-transparent font-medium">
+            {/* <p className="text-xs sm:text-sm bg-gradient-to-r from-muted-foreground via-accent/80 to-muted-foreground bg-clip-text text-transparent font-medium">
               Made with <Heart className="inline-block h-3 w-3 sm:h-3.5 sm:w-3.5 text-accent fill-accent mx-0.5 animate-pulse" /> by Hrishav
-            </p>
+            </p> */}
           </div>
         )}
       </main>
